@@ -1,0 +1,248 @@
+*{margin:0; padding:0;}
+a{color:#0052db}
+body{margin:0; padding:0; font-size:14px; font-family:'Open Sans', Helvetica, sans-serif; color:#555;line-height:22px;}
+img{border:0 none; margin:4px 0; max-width: 100%; }
+.right img{border:1px solid #EEE;}
+ul li{list-style-type:none;}
+h1, h2, h3, h4, h5, h6{font-weight:normal;font-family:'Open Sans', Helvetica, sans-serif;font-weight:600;}
+h1{font-size:23px; line-height:80px; height:80px; margin-bottom:10px;}
+h3 a, h2 a{text-decoration:none; color:#000;}
+h2{font-size:22px; color:#FF5248; border-bottom:1px dashed #d4d2d2; margin-bottom:20px; padding-bottom:10px;}
+h2.tips{ font-size:17px; }
+h3{font-size:16px; color:#555; padding-bottom:5px;}
+
+p{line-height:20px;}
+.red{color:#F00;}
+.clear{clear:both;}
+.bottom-space{ margin-bottom: 20px; }
+.heading-title h3{
+  	color: #4fbfa8;
+    font-size: 18px;
+    font-weight: normal;
+}
+.heading-title h3:hover{
+	color:#fff;
+}
+.top{
+	float:right;
+	margin: 60px 0 0;
+}
+.child-list li a{
+	text-decoration:none;
+	display: inline-block;
+}
+.child-list li a h3:hover{
+	color:#ff5248;
+}
+.child-title{
+	margin-top:25px;
+	display:inline-block;
+}
+.left{
+	overflow:auto;
+	background: none repeat scroll 0 0 #222;
+    box-shadow: 0 0 15px #BCBCBC;
+    height: 100%;
+    left: 0;
+    min-height: 100%;
+    position: fixed;
+    width: 18%;
+    z-index: 100;}
+.logo { margin: 20px 0 15px 15px; }
+.logo img { width:96%;}
+.right{	width:78%; float:left; margin-left:20%;}
+
+ul.menu{margin:0 0 40px 0px; padding:0;}
+ul.menu li a{  border-bottom: 1px solid #505557;
+    color: #FFF;
+    display: block;
+    line-height: 32px;
+    padding: 0 0 0 15px;
+    text-align: left;
+    text-decoration: none;
+	font-weight:400;
+}
+ul.menu li a:hover{background: none repeat scroll 0 0 #4FBFA8;
+    color: #FFFFFF;}
+ul.menu li a:selected{background:#fff; color:#3984ab;}
+
+.mb10{margin-bottom:10px;}
+
+ul.modual{margin:0 0 40px 40px; padding:0;}
+ul.modual li{line-height:28px; font-size:14px;}
+ul.modual li a{line-height:24px; text-decoration:underline; color:#00F; margin-left:8px}
+
+
+ul.sublinks li a {padding-left:30px;}
+ul.subsublinks li a {padding-left:50px;}
+.arrowimg {
+    background: url../images/arrow.gif) no-repeat scroll 0 6px transparent;
+    padding-left: 10px;
+	padding-bottom: 10px;
+}
+.subsubheader {font-size: 13px; font-style: normal; margin-left:30px;}
+em	{ font-size:13px;}
+.notice { margin-top:10px; }
+.note-msg, .notice-msg {
+    background-color: #FAFAEC;
+    border-color: #FCD344;
+    color: #3D6611;
+}
+.error-msg, .success-msg, .note-msg, .notice-msg {
+    border-style: solid !important;
+    border-width: 1px !important;
+    font-size: 13px !important;
+    padding: 4px 12px !important;
+}
+.text { margin-left:25px; }
+.top_bottom_line  { border-top:1px solid #DDDDDD;border-bottom:1px solid #DDDDDD;padding:8px 0; margin:10px 0 0 0; text-align:center; font-size:17px;}
+.buttons { margin: 10px 0;}
+.buttons a{
+	background-color: #46CBB0;
+    border-radius: 2px;
+    box-shadow: 1px 1px 0 #1D5749;
+    color: #FFFFFF;   
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms linear 0s;
+}
+.buttons a:hover{
+	background-color: #F06159;
+}
+.link.buttons a{
+	float: left;
+}
+.box.buttons a{
+	clear:both;
+	display: inline-block;
+}
+.fa{ margin-right: 10px;}
+.red{color: #ff5248; font-weight: normal;  line-height: 20px;}
+.block1 {
+    float: left;
+    margin-right: 10px;
+    margin-top: -10px;
+    width: 28%;
+}
+.block2 {
+    float: right;
+    width: 70%;
+	font-size: 13px;
+	line-height:20px;
+	font-weight:normal;
+}
+.block2 strong{ margin-bottom: 5px;}
+.shortcodes .mb10 > strong{ letter-spacing: 1px;}
+h3.sub-head:after {
+    background: none repeat scroll 0 0 #000000;
+    bottom: 10px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+h3.sub-head {
+    color: #000000;
+    padding-bottom: 20px;
+    position: relative;
+}
+h2.sub-head {
+	border: medium none;
+    color: #4FBFA8;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 0;
+}
+
+h4 {
+    color: #555;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-size: 16px;
+    padding-bottom: 0;
+}
+/****************  Video Tutorial ******************/
+
+#videostutorials
+{
+	border:1px solid #ddd;
+	padding: 35px 15px 45px;
+}
+.buttoncontainer {
+    display: inline-block;
+	margin: 0 10px 0 0;
+}
+.number > p {
+    border: 1px solid #555;
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px;
+   margin: 0 auto 15px;
+    text-align: center;
+    width: 30px;
+}
+.videoimage {
+	background:url../images/video-icon.png) no-repeat scroll 0 bottom transparent; 
+	display: block;
+    float: right;
+    height: 35px;
+    width: 35px;
+	margin-left:15px;
+}
+.buttoncontainer a {
+	background:url../images/video-icon.png) no-repeat scroll right bottom transparent;
+	text-decoration:none;
+	color:#272c2f;
+    font-size:15px;	
+	display:block;	
+	font-size:0;
+	text-indent:-9999;
+	height:70px;
+	width:195px;
+}
+.upload_theme a{
+	background:url("../images/step_1normal.png") no-repeat scroll 0 bottom transparent;
+}
+.upload_theme a:hover{
+	background:url("../images/step_1hover.png") no-repeat scroll 0 bottom transparent;
+}
+.install_plugin a{
+	background:url("../images/step_2normal.png") no-repeat scroll 0 bottom transparent;
+	 width: 157px;
+}
+.install_plugin a:hover{
+	background:url("../images/step_2hover.png") no-repeat scroll 0 bottom transparent;
+}
+.sample_data a{
+	background:url("../images/step_3normal.png") no-repeat scroll 0 bottom transparent;
+}
+.sample_data a:hover{
+	background:url("../images/step_3hover.png") no-repeat scroll 0 bottom transparent;
+}
+.home_setting a{
+	background:url("../images/step_4normal.png") no-repeat scroll 0 bottom transparent;
+}
+.home_setting a:hover{
+	background:url("../images/step_4hover.png") no-repeat scroll 0 bottom transparent;
+}
+.widget_setting a{
+	background:url("../images/step_5normal.png") no-repeat scroll 0 bottom transparent;
+}
+.widget_setting a:hover{
+	background:url("../images/step_5hover.png") no-repeat scroll 0 bottom transparent;
+}
+.buttoncontainer:hover .number p { background:#ff5343; color:#fff; border:1px solid #ff5343;} 
+
+.buttoncontainer:hover .videoimage {
+	background:url("../images/video-icon.png") no-repeat scroll 0 1px transparent; 
+}

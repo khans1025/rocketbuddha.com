@@ -1,0 +1,23 @@
+=============================================================================================================
+WCM010022 Update History
+=============================================================================================================
+
+Updated Date : 14-10-2015
+=============================================================================================================
+Version : Wordpress 4.3
+=============================================================================================================
+
+- RESOLVE SOME MISCELLANEOUS CSS BUGS
+
+- Documentation \ TM_Framework.html
+
+- THEME FILES UPDATED
+
+	1) WCM010022 \ templatemela \ admin \ theme-settings.php
+	2) WCM010022 \ templatemela \ megnor-functions.php
+	3) WCM010022 \ style.css
+	4) WCM010022 \ responsive.css
+	5) WCM010022 \ css \ megnor \ woocommerce.css
+
+
+
